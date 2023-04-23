@@ -7,13 +7,15 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { FormsModule } from '@angular/forms';
+import { BottomOffCanvasComponent } from './components/bottom-off-canvas/bottom-off-canvas.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         NavbarComponent,
         SidebarComponent,
-        DashboardComponent
+        DashboardComponent,
+        BottomOffCanvasComponent
     ],
     imports: [
         BrowserModule,

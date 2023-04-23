@@ -1,0 +1,24 @@
+//  FONTS:
+h1, h2, h3 {
+  font-family: var(--sofia-condensed) !important;
+  font-weight: 900;
+  }
+
+
+h4, h5, h6 {
+  font-family: var(--sofia-pro-soft) !important;
+  font-weight: 700;
+  }
+
+p, td, tr, div, span, ol, ul, li, {
+  font-family: var(--sofia-pro) !important;
+  font-weight: 400;
+  }
+
+code, pre {
+  }
+
+button.mgn-pink-btn {
+  background-color: var(--bs-pink);
+  color:            var(--bs-gray-100);
+  }

@@ -1,12 +1,19 @@
 <div class="px-3 py-2 border-bottom mb-0 bg-light">
     <div class="container d-flex flex-wrap justify-content-center">
         <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto">
-            <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+            <!-- TODO: Make search dynaic consider Algolia-->
+            <input id="appSearch"
+                   type="search"
+                   class="form-control"
+                   placeholder="Search..."
+                   aria-label="Search"
+                   (keydown)=searchSite($event)
+                   />
         </form>
 
         <div class="text-end">
             <button type="button" class="btn btn-light text-dark me-2">Login</button>
-            <button type="button" class="btn btn-primary">
+            <button type="button" class="btn mgn-pink-btn">
                 <i class="fa fa-gift"></i>&nbsp;Add Gift
             </button>
         </div>

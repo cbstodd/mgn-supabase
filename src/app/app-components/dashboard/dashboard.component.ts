@@ -9,6 +9,6 @@ export class DashboardComponent {
     title: string;
 
     constructor() {
-        this.title = 'Dashboard';
+        this.title = "UserName's Dashboard";
     }
 }

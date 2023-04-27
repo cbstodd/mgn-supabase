@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EditMyGiftComponent } from './edit-my-gift.component';
+import { EditMyGiftComponent } from './my-gift-edit.component';
 
 describe('EditMyGiftComponent', () => {
   let component: EditMyGiftComponent;

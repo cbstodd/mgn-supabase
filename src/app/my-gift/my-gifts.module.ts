@@ -8,6 +8,7 @@ import { MyGiftDetailsComponent } from './components/my-gift-details/my-gift-det
 import { MyGiftListComponent } from './components/my-gift-list/my-gift-list.component';
 import { MyGiftEditComponent } from './components/my-gift-edit/my-gift-edit.component';
 import { RouterModule } from '@angular/router';
+import { MyGifttItemComponent } from './components/my-giftt-item/my-giftt-item.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { RouterModule } from '@angular/router';
         NewMyGiftComponent,
         MyGiftEditComponent,
         MyGiftDetailsComponent,
-        MyGiftListComponent
+        MyGiftListComponent,
+        MyGifttItemComponent
     ],
     imports: [
         CommonModule,
